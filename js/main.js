@@ -12,6 +12,7 @@ var init = function () {
 };
 $(document).ready(init);
 function add() {
+	alert("Ok!");
 	/*var alarm = new window.tizen.AlarmRelative(window.tizen.alarm.PERIOD_MINUTE/2);
 	window.tizen.alarm.add(alarm, "org.tizen.clock"); 	
 	console.log("The alarm triggers " + alarm.getRemainingSeconds() + " seconds later");*/
