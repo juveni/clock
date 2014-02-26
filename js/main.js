@@ -10,8 +10,7 @@ var init = function () {
     });
     add();
 };
-$(document).bind('pageinit', init);
-
+$(document).ready(init);
 function add() {
 	/*var alarm = new window.tizen.AlarmRelative(window.tizen.alarm.PERIOD_MINUTE/2);
 	window.tizen.alarm.add(alarm, "org.tizen.clock"); 	
